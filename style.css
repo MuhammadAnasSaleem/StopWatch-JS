@@ -1,0 +1,70 @@
+body {
+  background-image: url(https://images.pexels.com/photos/631477/pexels-photo-631477.jpeg?cs=srgb&dl=pexels-neale-lasalle-197020-631477.jpg&fm=jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: sans-serif;
+}
+.container {
+  background: rgba(255, 251, 251, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  width: 60%;
+  min-width: 350px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+#display {
+  font-size: 80px;
+  color: #fff;
+  font-family: monospace;
+}
+.controls {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  padding: 0, 30px;
+  gap: 50px;
+}
+.controls button {
+  font-size: 22px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  padding: 4px 25px;
+  font-weight: bold;
+  color: #fff;
+  transition: background, 10s, ease;
+}
+.start {
+  background-color: hsl(120, 100%, 33%);
+}
+.start:hover {
+  background-color: hsl(120, 100%, 23%);
+}
+.stop {
+  background-color: hsl(0, 85%, 46%);
+}
+.stop:hover {
+  background-color: hsl(0, 85%, 36%);
+}
+.reset {
+  background-color: hsl(56, 100%, 50%);
+}
+.reset:hover {
+  background-color: hsl(56, 100%, 40%);
+}
